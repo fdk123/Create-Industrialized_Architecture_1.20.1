@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "i_architecture:dark_brick_tiles"
+  },
+  "result": {
+    "count": 6,
+    "id": "i_architecture:dark_brick_tiles_wall"
+  }
+}

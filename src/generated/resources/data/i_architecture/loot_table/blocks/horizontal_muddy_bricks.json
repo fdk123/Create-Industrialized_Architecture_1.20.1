@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "i_architecture:horizontal_muddy_bricks"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "i_architecture:blocks/horizontal_muddy_bricks"
+}

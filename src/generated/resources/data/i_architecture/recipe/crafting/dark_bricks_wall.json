@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:dark_bricks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "id": "i_architecture:dark_bricks_wall"
+  }
+}

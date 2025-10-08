@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "i_architecture:block/ornate_sandy_bricks",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "i_architecture:block/ornate_sandy_bricks"
+    },
+    "facing=south": {
+      "model": "i_architecture:block/ornate_sandy_bricks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "i_architecture:block/ornate_sandy_bricks",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "i_architecture:block/bricks/sandy_bricks",
+    "side": "i_architecture:block/bricks/sandy_bricks",
+    "top": "i_architecture:block/bricks/sandy_bricks"
+  }
+}

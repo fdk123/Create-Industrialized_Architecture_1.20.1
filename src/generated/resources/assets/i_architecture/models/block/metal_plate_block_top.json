@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "i_architecture:block/metal/metal_plate_block",
+    "side": "i_architecture:block/metal/metal_plate_block",
+    "top": "i_architecture:block/metal/metal_plate_block"
+  }
+}

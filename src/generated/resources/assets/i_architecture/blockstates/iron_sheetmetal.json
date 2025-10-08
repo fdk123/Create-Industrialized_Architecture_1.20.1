@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "i_architecture:block/iron_sheetmetal"
+    }
+  }
+}

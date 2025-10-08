@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "i_architecture:horizontal_sandy_bricks"
+  },
+  "result": {
+    "count": 6,
+    "id": "i_architecture:horizontal_sandy_bricks_wall"
+  }
+}

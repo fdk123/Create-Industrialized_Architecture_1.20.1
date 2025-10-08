@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "i_architecture:block/metal/brass_plating",
+    "side": "i_architecture:block/metal/brass_plating",
+    "top": "i_architecture:block/metal/brass_plating"
+  }
+}

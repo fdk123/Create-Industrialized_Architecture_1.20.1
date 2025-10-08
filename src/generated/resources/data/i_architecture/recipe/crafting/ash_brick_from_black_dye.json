@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:gray_dye"
+    },
+    "G": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "result": {
+    "count": 8,
+    "id": "i_architecture:ash_brick"
+  }
+}

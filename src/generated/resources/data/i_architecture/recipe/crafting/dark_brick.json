@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "create:cinder_flour"
+    },
+    "G": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "CG ",
+    "GC ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "id": "i_architecture:dark_brick"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/ceramic_floortiles_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/ceramic_floortiles"
+    },
+    "type=top": {
+      "model": "i_architecture:block/ceramic_floortiles_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "i_architecture:shiny_brass_plating"
+  },
+  "result": {
+    "count": 6,
+    "id": "i_architecture:shiny_brass_plating_wall"
+  }
+}

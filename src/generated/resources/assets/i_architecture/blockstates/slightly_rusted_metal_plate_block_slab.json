@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/slightly_rusted_metal_plate_block_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/slightly_rusted_metal_plate_block"
+    },
+    "type=top": {
+      "model": "i_architecture:block/slightly_rusted_metal_plate_block_top"
+    }
+  }
+}

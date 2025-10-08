@@ -1,0 +1,30 @@
+{
+  "values": [
+    "i_architecture:dark_bricks_stairs",
+    "i_architecture:dark_brick_tiles_stairs",
+    "i_architecture:horizontal_dark_bricks_stairs",
+    "i_architecture:sandy_bricks_stairs",
+    "i_architecture:sandy_brick_tiles_stairs",
+    "i_architecture:horizontal_sandy_bricks_stairs",
+    "i_architecture:ash_bricks_stairs",
+    "i_architecture:ash_brick_tiles_stairs",
+    "i_architecture:horizontal_ash_bricks_stairs",
+    "i_architecture:soot_bricks_stairs",
+    "i_architecture:soot_brick_tiles_stairs",
+    "i_architecture:horizontal_soot_bricks_stairs",
+    "i_architecture:muddy_bricks_stairs",
+    "i_architecture:muddy_brick_tiles_stairs",
+    "i_architecture:horizontal_muddy_bricks_stairs",
+    "i_architecture:ceramic_floortiles_stairs",
+    "i_architecture:ceramic_tiles_stairs",
+    "i_architecture:large_ceramic_tile_stairs",
+    "i_architecture:large_ceramic_tiles_stairs",
+    "i_architecture:roof_shingles_stairs",
+    "i_architecture:metal_plate_block_stairs",
+    "i_architecture:slightly_rusted_metal_plate_block_stairs",
+    "i_architecture:rusted_metal_plate_block_stairs",
+    "i_architecture:brass_plating_stairs",
+    "i_architecture:shiny_brass_plating_stairs",
+    "i_architecture:brass_tiles_stairs"
+  ]
+}
