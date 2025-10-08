@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/ash_bricks_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/ash_bricks"
+    },
+    "type=top": {
+      "model": "i_architecture:block/ash_bricks_top"
+    }
+  }
+}

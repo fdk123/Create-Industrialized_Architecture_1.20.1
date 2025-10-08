@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "i_architecture:block/metal/rusted/rusted_iron_sheetmetal"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "i_architecture:block/bricks/ash_bricks"
+  }
+}

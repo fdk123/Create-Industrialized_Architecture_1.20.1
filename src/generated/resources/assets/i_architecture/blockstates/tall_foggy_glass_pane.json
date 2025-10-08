@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "i_architecture:block/tall_foggy_glass_pane",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "i_architecture:block/tall_foggy_glass_pane"
+    },
+    "facing=south": {
+      "model": "i_architecture:block/tall_foggy_glass_pane",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "i_architecture:block/tall_foggy_glass_pane",
+      "y": 270
+    }
+  }
+}

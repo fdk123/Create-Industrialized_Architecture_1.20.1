@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/brass_plating_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/brass_plating"
+    },
+    "type=top": {
+      "model": "i_architecture:block/brass_plating_top"
+    }
+  }
+}

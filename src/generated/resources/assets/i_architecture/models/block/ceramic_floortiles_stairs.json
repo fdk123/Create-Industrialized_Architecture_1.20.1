@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "i_architecture:block/ceramic/ceramic_floortiles",
+    "side": "i_architecture:block/ceramic/ceramic_floortiles",
+    "top": "i_architecture:block/ceramic/ceramic_floortiles"
+  }
+}

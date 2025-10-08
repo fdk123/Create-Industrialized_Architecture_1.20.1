@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/soot_bricks_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/soot_bricks"
+    },
+    "type=top": {
+      "model": "i_architecture:block/soot_bricks_top"
+    }
+  }
+}

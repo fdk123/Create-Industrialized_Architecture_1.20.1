@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/ceramic_tiles_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/ceramic_tiles"
+    },
+    "type=top": {
+      "model": "i_architecture:block/ceramic_tiles_top"
+    }
+  }
+}

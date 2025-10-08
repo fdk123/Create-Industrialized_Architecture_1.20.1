@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "i_architecture:block/rusted_metal_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "i_architecture:block/rusted_metal_pillar"
+    },
+    "axis=z": {
+      "model": "i_architecture:block/rusted_metal_pillar",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "i_architecture:block/roof_shingles_bottom"
+    },
+    "type=double": {
+      "model": "i_architecture:block/roof_shingles"
+    },
+    "type=top": {
+      "model": "i_architecture:block/roof_shingles_top"
+    }
+  }
+}

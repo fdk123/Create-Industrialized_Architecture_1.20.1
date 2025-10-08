@@ -1,0 +1,7 @@
+{
+  "parent": "i_architecture:block/metal_railing/block_railing_higher",
+  "textures": {
+    "0": "i_architecture:block/metal/rusted/rusted_metal_railing",
+    "particle": "i_architecture:block/metal/rusted/rusted_metal_railing"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "i_architecture:rusted_metal_plate_block"
+  },
+  "result": {
+    "count": 6,
+    "id": "i_architecture:rusted_metal_plate_block_wall"
+  }
+}
