@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:metal_plate_block"
+    },
+    "G": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "BG ",
+    "GB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "i_architecture:metal_vent"
+  },
+  "show_notification": true
+}

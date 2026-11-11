@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:metal_plate_block"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "BG ",
+    "GB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "i_architecture:metal_plate_light"
+  },
+  "show_notification": true
+}

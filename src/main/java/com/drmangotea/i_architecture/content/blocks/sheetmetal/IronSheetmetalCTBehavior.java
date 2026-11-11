@@ -24,7 +24,7 @@ public class IronSheetmetalCTBehavior extends ConnectedTextureBehaviour.Base {
 		if(face.getAxis().isVertical())
 			return false;
 
-		if(!other.is(IABlocks.IRON_SHEETMETAL.getNormal())&&!other.is(IABlocks.IRON_SHEETMETAL.getSlightlyRusted())&&!other.is(IABlocks.IRON_SHEETMETAL.getRusted()))
+		if(!other.is(IABlocks.IRON_SHEETMETAL.getNormal().get())&&!other.is(IABlocks.IRON_SHEETMETAL.getSlightlyRusted().get())&&!other.is(IABlocks.IRON_SHEETMETAL.getRusted().get()))
 			return false;
 
 		return true;
@@ -33,11 +33,11 @@ public class IronSheetmetalCTBehavior extends ConnectedTextureBehaviour.Base {
 	@Override
 	public CTSpriteShiftEntry getShift(BlockState state, Direction direction, @Nullable TextureAtlasSprite sprite) {
 
-		if(state.is(IABlocks.IRON_SHEETMETAL.getNormal()))
+		if(state.is(IABlocks.IRON_SHEETMETAL.getNormal().get()))
 			return IASpriteShifts.SHEETMETAL;
-		if(state.is(IABlocks.IRON_SHEETMETAL.getSlightlyRusted()))
+		if(state.is(IABlocks.IRON_SHEETMETAL.getSlightlyRusted().get()))
 			return IASpriteShifts.SLIGHTLY_RUSTED_SHEETMETAL;
-		if(state.is(IABlocks.IRON_SHEETMETAL.getRusted()))
+		if(state.is(IABlocks.IRON_SHEETMETAL.getRusted().get()))
 			return IASpriteShifts.RUSTED_SHEETMETAL;
 
 

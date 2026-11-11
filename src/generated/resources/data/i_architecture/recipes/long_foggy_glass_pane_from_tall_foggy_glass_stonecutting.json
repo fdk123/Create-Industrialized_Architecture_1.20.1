@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "i_architecture:tall_foggy_glass"
+  },
+  "result": "i_architecture:long_foggy_glass_pane"
+}

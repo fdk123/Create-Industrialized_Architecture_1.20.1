@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rusted_metal_catwalk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:rusted_metal_catwalk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:crafting/rusted_metal_catwalk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rusted_metal_catwalk",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:crafting/rusted_metal_catwalk"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:roof_shingles"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "   "
+  ],
+  "result": {
+    "count": 6,
+    "item": "i_architecture:roof_shingles_slab"
+  },
+  "show_notification": true
+}

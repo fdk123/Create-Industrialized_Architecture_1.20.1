@@ -1,12 +1,12 @@
 package com.drmangotea.i_architecture.registry;
 
 import com.drmangotea.i_architecture.IndustrializedArchitecture;
+import com.drmangotea.i_architecture.base.IAUtils;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.decoration.palettes.AllPaletteBlocks;
 import com.simibubi.create.content.kinetics.mixer.CompactingRecipe;
 import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder;
-import com.simibubi.create.content.processing.recipe.StandardProcessingRecipe;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.builders.ItemBuilder;
 import com.tterrag.registrate.util.DataIngredient;
@@ -27,7 +27,7 @@ import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 
 public class IAItems {
     public static final ItemEntry<Item>
-            INDUSTRIAL_IRON_INGOT = taggedIngredient("industrial_iron_ingot", AllTags.commonItemTag("ingots/industrial_iron"))
+            INDUSTRIAL_IRON_INGOT = taggedIngredient("industrial_iron_ingot", IAUtils.commonItemTag("ingots/industrial_iron"))
             .recipe((c, p) ->
                     p.stonecutting(DataIngredient.items(Items.IRON_INGOT), RecipeCategory.MISC, c, 2))
             .register();

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:sand"
+    },
+    "G": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "CG ",
+    "GC ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "i_architecture:sandy_brick"
+  },
+  "show_notification": true
+}

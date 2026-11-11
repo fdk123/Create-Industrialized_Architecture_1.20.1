@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:ceramic_floortiles"
+    }
+  },
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "i_architecture:ceramic_floortiles_stairs"
+  },
+  "show_notification": true
+}

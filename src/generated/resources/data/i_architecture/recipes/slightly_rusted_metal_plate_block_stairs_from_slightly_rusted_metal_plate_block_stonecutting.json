@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "i_architecture:slightly_rusted_metal_plate_block"
+  },
+  "result": "i_architecture:slightly_rusted_metal_plate_block_stairs"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:dark_brick"
+    },
+    "C": {
+      "item": "i_architecture:ceramic_tile"
+    }
+  },
+  "pattern": [
+    "CB ",
+    "CB ",
+    "   "
+  ],
+  "result": {
+    "item": "i_architecture:composite_dark_bricks"
+  },
+  "show_notification": true
+}

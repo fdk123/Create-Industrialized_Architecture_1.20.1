@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_muddy_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:muddy_brick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:crafting/muddy_brick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_muddy_brick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:crafting/muddy_brick"
+    ]
+  },
+  "sends_telemetry_event": false
+}

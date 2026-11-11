@@ -14,7 +14,7 @@ public class CatwalkStairsBlock extends IAHorizontalDirectionalBlock {
     }
 
     @Override
-    protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return IAShapes.CATWALK_STAIRS.get(state.getValue(FACING));
     }
 }

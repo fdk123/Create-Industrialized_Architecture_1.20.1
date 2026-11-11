@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "i_architecture:horizontal_muddy_bricks"
+  },
+  "result": "i_architecture:horizontal_muddy_bricks_slab"
+}

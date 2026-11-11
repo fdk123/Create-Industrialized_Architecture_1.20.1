@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shiny_brass_plating_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:shiny_brass_plating_wall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:crafting/shiny_brass_plating_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shiny_brass_plating_wall",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:crafting/shiny_brass_plating_wall"
+    ]
+  },
+  "sends_telemetry_event": false
+}

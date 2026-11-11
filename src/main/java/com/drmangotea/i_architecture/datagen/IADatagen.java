@@ -9,13 +9,11 @@ import com.google.gson.JsonObject;
 import com.simibubi.create.foundation.utility.FilesHelper;
 import com.tterrag.registrate.providers.ProviderType;
 import net.createmod.ponder.foundation.PonderIndex;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
-import net.neoforged.neoforge.data.event.GatherDataEvent;
+import net.minecraftforge.data.event.GatherDataEvent;
 
 import java.util.Map;
-import java.util.concurrent.CompletableFuture;
 import java.util.function.BiConsumer;
 
 import static com.drmangotea.i_architecture.IndustrializedArchitecture.REGISTRATE;
@@ -23,17 +21,15 @@ import static com.drmangotea.i_architecture.IndustrializedArchitecture.REGISTRAT
 
 public class IADatagen {
     public static void gatherDataHighPriority(GatherDataEvent event) {
-        if (event.getMods().contains(IndustrializedArchitecture.MOD_ID))
-            addExtraRegistrateData();
+        addExtraRegistrateData();
     }
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         PackOutput output = generator.getPackOutput();
-       CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
 
 
-        generator.addProvider(event.includeServer(),new IAStandardRecipeGen(output,lookupProvider));
+        generator.addProvider(event.includeServer(),new IAStandardRecipeGen(output));
 
 
 

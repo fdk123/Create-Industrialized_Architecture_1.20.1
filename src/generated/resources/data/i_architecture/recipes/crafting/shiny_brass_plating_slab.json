@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:shiny_brass_plating"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "   "
+  ],
+  "result": {
+    "count": 6,
+    "item": "i_architecture:shiny_brass_plating_slab"
+  },
+  "show_notification": true
+}

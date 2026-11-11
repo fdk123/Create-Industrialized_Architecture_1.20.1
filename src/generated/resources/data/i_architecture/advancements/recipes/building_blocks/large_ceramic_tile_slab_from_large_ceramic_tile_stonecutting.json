@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_large_ceramic_tile": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:large_ceramic_tile"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:large_ceramic_tile_slab_from_large_ceramic_tile_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_large_ceramic_tile",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:large_ceramic_tile_slab_from_large_ceramic_tile_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

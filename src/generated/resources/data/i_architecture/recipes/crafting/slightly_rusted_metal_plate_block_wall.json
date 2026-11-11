@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:slightly_rusted_metal_plate_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "i_architecture:slightly_rusted_metal_plate_block_wall"
+  },
+  "show_notification": true
+}

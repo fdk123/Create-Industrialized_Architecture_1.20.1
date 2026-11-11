@@ -1,0 +1,12 @@
+{
+  "values": [
+    "i_architecture:metal_door",
+    "i_architecture:slightly_rusted_metal_door",
+    "i_architecture:rusted_metal_door",
+    "i_architecture:folding_metal_door",
+    "i_architecture:slightly_rusted_folding_metal_door",
+    "i_architecture:rusted_folding_metal_door",
+    "i_architecture:brass_door",
+    "i_architecture:folding_brass_door"
+  ]
+}

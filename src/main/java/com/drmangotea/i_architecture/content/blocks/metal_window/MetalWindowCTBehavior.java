@@ -24,9 +24,9 @@ public class MetalWindowCTBehavior extends ConnectedTextureBehaviour.Base {
 		if(face.getAxis().isVertical())
 			return false;
 
-		if(!other.is(IABlocks.METAL_WINDOW.getNormal())&&
-				!other.is(IABlocks.METAL_WINDOW.getSlightlyRusted())&&
-				!other.is(IABlocks.METAL_WINDOW.getRusted()))
+		if(!other.is(IABlocks.METAL_WINDOW.getNormal().get())&&
+				!other.is(IABlocks.METAL_WINDOW.getSlightlyRusted().get())&&
+				!other.is(IABlocks.METAL_WINDOW.getRusted().get()))
 			return false;
 
 		return true;
@@ -35,11 +35,11 @@ public class MetalWindowCTBehavior extends ConnectedTextureBehaviour.Base {
 	@Override
 	public CTSpriteShiftEntry getShift(BlockState state, Direction direction, @Nullable TextureAtlasSprite sprite) {
 
-		if(state.is(IABlocks.METAL_WINDOW.getNormal()))
+		if(state.is(IABlocks.METAL_WINDOW.getNormal().get()))
 			return IASpriteShifts.METAL_WINDOW;
-		if(state.is(IABlocks.METAL_WINDOW.getSlightlyRusted()))
+		if(state.is(IABlocks.METAL_WINDOW.getSlightlyRusted().get()))
 			return IASpriteShifts.SLIGHTLY_RUSTED_METAL_WINDOW;
-		if(state.is(IABlocks.METAL_WINDOW.getRusted()))
+		if(state.is(IABlocks.METAL_WINDOW.getRusted().get()))
 			return IASpriteShifts.RUSTED_METAL_WINDOW;
 
 

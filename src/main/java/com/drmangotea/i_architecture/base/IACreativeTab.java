@@ -9,10 +9,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
 import org.jetbrains.annotations.ApiStatus;
 
 
@@ -27,9 +27,8 @@ public class IACreativeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> INDUSTRIALIZED_DECOR_TAB = REGISTER.register("industrialized_decor", () -> CreativeModeTab.builder()
-            .withTabsBefore(AllCreativeModeTabs.PALETTES_CREATIVE_TAB.getId())
-            .title(Component.translatable("creative_tab.i_architecture"))
+    public static final RegistryObject<CreativeModeTab> INDUSTRIALIZED_DECOR_TAB = REGISTER.register("industrialized_decor", () -> CreativeModeTab.builder()
+                        .title(Component.translatable("creative_tab.i_architecture"))
             .icon(()-> IAItems.INDUSTRIAL_IRON_INGOT.get().asItem().getDefaultInstance())
            // .displayItems(new RegistrateDisplayItemsGenerator(true, TFMGCreativeTabs.TFMG_MAIN))
             .build());
@@ -40,7 +39,7 @@ public class IACreativeTab {
 
        if(event.getTab() == IACreativeTab.INDUSTRIALIZED_DECOR_TAB.get()){
            event.acceptAll(customAdditions());
-           for(RegistryEntry<Item, ?> item : REGISTRATE.getAll(Registries.ITEM)){
+           for(RegistryEntry<Item> item : REGISTRATE.getAll(Registries.ITEM)){
 //
                event.accept(item.get(), CreativeModeTab.TabVisibility.PARENT_TAB_ONLY);
            }

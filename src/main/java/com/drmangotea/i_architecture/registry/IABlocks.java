@@ -40,7 +40,7 @@ import static com.drmangotea.i_architecture.IndustrializedArchitecture.REGISTRAT
 import static com.drmangotea.i_architecture.base.IABuilderTransformers.createRustedRecipe;
 import static com.drmangotea.i_architecture.base.IAUtils.*;
 import static com.drmangotea.i_architecture.base.RustedBlockVariants.convertToFolder;
-import static com.simibubi.create.AllTags.commonItemTag;
+import static com.drmangotea.i_architecture.base.IAUtils.commonItemTag;
 import static com.simibubi.create.foundation.data.CreateRegistrate.connectedTextures;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 
@@ -426,8 +426,8 @@ public class IABlocks {
 
 
     //-----WINDOWS-----//
-    public static final BlockEntry<TransparentBlock> FOGGY_GLASS_TILES =
-            REGISTRATE.block("foggy_glass_tiles", TransparentBlock::new)
+    public static final BlockEntry<HalfTransparentBlock> FOGGY_GLASS_TILES =
+            REGISTRATE.block("foggy_glass_tiles", HalfTransparentBlock::new)
                     .initialProperties(() -> Blocks.GLASS)
                     .properties(p -> p.noOcclusion())
                     .addLayer(() -> RenderType::translucent)
@@ -444,8 +444,8 @@ public class IABlocks {
                     .simpleItem()
                     .register();
 
-    public static final BlockEntry<TransparentBlock> TALL_FOGGY_GLASS_TILES =
-            REGISTRATE.block("tall_foggy_glass", TransparentBlock::new)
+    public static final BlockEntry<HalfTransparentBlock> TALL_FOGGY_GLASS_TILES =
+            REGISTRATE.block("tall_foggy_glass", HalfTransparentBlock::new)
                     .initialProperties(() -> Blocks.GLASS)
                     .properties(p -> p.noOcclusion())
                     .recipe((c, p) ->
@@ -464,8 +464,8 @@ public class IABlocks {
                     .simpleItem()
                     .register();
 
-    public static final BlockEntry<TransparentBlock> LONG_FOGGY_GLASS_TILES =
-            REGISTRATE.block("long_foggy_glass", TransparentBlock::new)
+    public static final BlockEntry<HalfTransparentBlock> LONG_FOGGY_GLASS_TILES =
+            REGISTRATE.block("long_foggy_glass", HalfTransparentBlock::new)
                     .initialProperties(() -> Blocks.GLASS)
                     .properties(p -> p.noOcclusion())
                     .onRegister(CreateRegistrate.connectedTextures(() -> new VerticalCTBehavior(IASpriteShifts.LONG_FOGGY_GLASS)))
@@ -740,7 +740,7 @@ public class IABlocks {
             .transform(pickaxeOnly())
             .blockstate(iASimpleBlockState(METAL))
             .recipe((c, p) ->
-                    p.stonecutting(DataIngredient.tag(AllTags.commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4))
+                    p.stonecutting(DataIngredient.tag(commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4))
             .item()
             .build()
             .register();
@@ -832,10 +832,10 @@ public class IABlocks {
             .properties(p -> p.sound(SoundType.METAL))
             .transform(pickaxeOnly())
             .recipe((c, p) ->
-                    p.stonecutting(DataIngredient.tag(AllTags.commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4))
+                    p.stonecutting(DataIngredient.tag(commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4))
             .addLayer(() -> RenderType::cutoutMipped)
             .transform(createRustedRecipe((c, p) ->
-                    p.stonecutting(DataIngredient.tag(AllTags.commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4)))
+                    p.stonecutting(DataIngredient.tag(commonItemTag("ingots/brass")), RecipeCategory.DECORATIONS, c, 4)))
             .blockstate(RailingBlock.railing("brass"))
             .loot((lt, block) -> {
                 LootTable.Builder builder = LootTable.lootTable();

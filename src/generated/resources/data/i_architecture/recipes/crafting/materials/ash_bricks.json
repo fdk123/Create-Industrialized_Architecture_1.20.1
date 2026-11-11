@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:ash_brick"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "item": "i_architecture:ash_bricks"
+  },
+  "show_notification": true
+}

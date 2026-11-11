@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "i_architecture:slightly_rusted_metal_plate_block"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AWA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "i_architecture:rusted_metal_plate_block"
+  },
+  "show_notification": true
+}

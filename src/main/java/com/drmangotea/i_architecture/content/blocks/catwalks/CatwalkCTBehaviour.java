@@ -15,11 +15,11 @@ public class CatwalkCTBehaviour extends ConnectedTextureBehaviour.Base {
     @Override
     public @Nullable CTSpriteShiftEntry getShift(BlockState state, Direction direction, @Nullable TextureAtlasSprite sprite) {
 
-        if(state.is(IABlocks.METAL_CATWALK.getNormal())||state.is(IABlocks.TALL_METAL_CATWALK.getNormal()))
+        if(state.is(IABlocks.METAL_CATWALK.getNormal().get())||state.is(IABlocks.TALL_METAL_CATWALK.getNormal().get()))
             return IASpriteShifts.CATWALK;
-        if(state.is(IABlocks.METAL_CATWALK.getSlightlyRusted())||state.is(IABlocks.TALL_METAL_CATWALK.getSlightlyRusted()))
+        if(state.is(IABlocks.METAL_CATWALK.getSlightlyRusted().get())||state.is(IABlocks.TALL_METAL_CATWALK.getSlightlyRusted().get()))
             return IASpriteShifts.SLIGHTLY_RUSTED_CATWALK;
-        if(state.is(IABlocks.METAL_CATWALK.getRusted())||state.is(IABlocks.TALL_METAL_CATWALK.getRusted()))
+        if(state.is(IABlocks.METAL_CATWALK.getRusted().get())||state.is(IABlocks.TALL_METAL_CATWALK.getRusted().get()))
             return IASpriteShifts.RUSTED_CATWALK;
 
        return null;

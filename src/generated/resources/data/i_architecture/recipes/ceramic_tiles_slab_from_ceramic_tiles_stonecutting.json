@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "i_architecture:ceramic_tiles"
+  },
+  "result": "i_architecture:ceramic_tiles_slab"
+}

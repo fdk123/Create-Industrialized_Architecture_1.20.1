@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brass_plating_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:brass_plating_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:crafting/brass_plating_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_brass_plating_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:crafting/brass_plating_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

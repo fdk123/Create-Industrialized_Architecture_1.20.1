@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "D": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    " D ",
+    "BBB",
+    "   "
+  ],
+  "result": {
+    "count": 8,
+    "item": "i_architecture:roof_shingle"
+  },
+  "show_notification": true
+}

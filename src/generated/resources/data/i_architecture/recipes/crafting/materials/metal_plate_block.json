@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "tag": "forge:ingots/industrial_iron"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "count": 8,
+    "item": "i_architecture:metal_plate_block"
+  },
+  "show_notification": true
+}

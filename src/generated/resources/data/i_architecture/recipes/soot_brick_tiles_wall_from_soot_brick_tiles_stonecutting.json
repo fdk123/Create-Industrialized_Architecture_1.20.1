@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "i_architecture:soot_brick_tiles"
+  },
+  "result": "i_architecture:soot_brick_tiles_wall"
+}

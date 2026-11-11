@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:roof_shingle"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "item": "i_architecture:roof_shingles"
+  },
+  "show_notification": true
+}

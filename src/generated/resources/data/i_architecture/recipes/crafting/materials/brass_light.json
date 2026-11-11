@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:brass_plating"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "BG ",
+    "GB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "i_architecture:brass_light"
+  },
+  "show_notification": true
+}

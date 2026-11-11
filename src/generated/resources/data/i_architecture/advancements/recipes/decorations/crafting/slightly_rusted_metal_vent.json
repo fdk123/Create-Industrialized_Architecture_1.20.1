@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slightly_rusted_metal_vent": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:slightly_rusted_metal_vent"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:crafting/slightly_rusted_metal_vent"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_slightly_rusted_metal_vent",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:crafting/slightly_rusted_metal_vent"
+    ]
+  },
+  "sends_telemetry_event": false
+}

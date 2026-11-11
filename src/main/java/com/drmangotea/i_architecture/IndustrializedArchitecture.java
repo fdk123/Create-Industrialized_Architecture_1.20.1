@@ -14,11 +14,10 @@ import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipModifier;
 import net.createmod.catnip.lang.FontHelper;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.bus.api.EventPriority;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.ModLoadingContext;
-import net.neoforged.fml.common.Mod;
+import net.minecraftforge.eventbus.api.EventPriority;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
 
@@ -35,8 +34,8 @@ public class IndustrializedArchitecture {
                             .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
             );
 
-    public IndustrializedArchitecture(IEventBus modEventBus, ModContainer modContainer) {
-        ModLoadingContext modLoadingContext = ModLoadingContext.get();
+    public IndustrializedArchitecture() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         REGISTRATE.registerEventListeners(modEventBus);
         IASpriteShifts.register();
@@ -53,7 +52,7 @@ public class IndustrializedArchitecture {
     }
 
     public static ResourceLocation asResource(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+        return new ResourceLocation(MOD_ID, path);
     }
 
 }

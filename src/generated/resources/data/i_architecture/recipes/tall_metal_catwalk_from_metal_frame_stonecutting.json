@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "i_architecture:metal_frame"
+  },
+  "result": "i_architecture:tall_metal_catwalk"
+}

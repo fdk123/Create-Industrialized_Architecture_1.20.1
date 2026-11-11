@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "i_architecture:horizontal_dark_bricks"
+  },
+  "result": "i_architecture:horizontal_dark_bricks_slab"
+}

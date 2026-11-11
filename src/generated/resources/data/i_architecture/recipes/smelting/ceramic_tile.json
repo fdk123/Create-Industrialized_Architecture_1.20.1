@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "i_architecture:unfired_ceramic_ball"
+  },
+  "result": "i_architecture:ceramic_tile"
+}

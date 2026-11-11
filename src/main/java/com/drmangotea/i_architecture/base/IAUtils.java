@@ -9,6 +9,10 @@ import com.tterrag.registrate.util.nullness.NonNullBiConsumer;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 
 import static com.drmangotea.i_architecture.IndustrializedArchitecture.REGISTRATE;
@@ -17,6 +21,10 @@ import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 
 public class IAUtils {
+
+    public static TagKey<Item> commonItemTag(String path) {
+        return TagKey.create(Registries.ITEM, new ResourceLocation("forge", path));
+    }
 
     public static final String BRICKS = "bricks";
     public static final String METAL = "metal";

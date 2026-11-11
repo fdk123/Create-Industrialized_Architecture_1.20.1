@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:metal_plate_block"
+    },
+    "G": {
+      "item": "create:framed_glass"
+    }
+  },
+  "pattern": [
+    "BG ",
+    "GB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "i_architecture:metal_window"
+  },
+  "show_notification": true
+}

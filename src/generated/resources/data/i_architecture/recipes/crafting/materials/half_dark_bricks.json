@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:dark_bricks_slab"
+    },
+    "G": {
+      "item": "i_architecture:large_ceramic_tile_slab"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "G  ",
+    "   "
+  ],
+  "result": {
+    "item": "i_architecture:half_dark_bricks"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "values": [
+    "i_architecture:dark_bricks_slab",
+    "i_architecture:dark_brick_tiles_slab",
+    "i_architecture:horizontal_dark_bricks_slab",
+    "i_architecture:sandy_bricks_slab",
+    "i_architecture:sandy_brick_tiles_slab",
+    "i_architecture:horizontal_sandy_bricks_slab",
+    "i_architecture:ash_bricks_slab",
+    "i_architecture:ash_brick_tiles_slab",
+    "i_architecture:horizontal_ash_bricks_slab",
+    "i_architecture:soot_bricks_slab",
+    "i_architecture:soot_brick_tiles_slab",
+    "i_architecture:horizontal_soot_bricks_slab",
+    "i_architecture:muddy_bricks_slab",
+    "i_architecture:muddy_brick_tiles_slab",
+    "i_architecture:horizontal_muddy_bricks_slab",
+    "i_architecture:ceramic_floortiles_slab",
+    "i_architecture:ceramic_tiles_slab",
+    "i_architecture:large_ceramic_tile_slab",
+    "i_architecture:large_ceramic_tiles_slab",
+    "i_architecture:roof_shingles_slab",
+    "i_architecture:metal_plate_block_slab",
+    "i_architecture:slightly_rusted_metal_plate_block_slab",
+    "i_architecture:rusted_metal_plate_block_slab",
+    "i_architecture:brass_plating_slab",
+    "i_architecture:shiny_brass_plating_slab",
+    "i_architecture:brass_tiles_slab"
+  ]
+}

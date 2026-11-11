@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ceramic_floortiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "i_architecture:ceramic_floortiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "i_architecture:ceramic_floortiles_wall_from_ceramic_floortiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ceramic_floortiles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "i_architecture:ceramic_floortiles_wall_from_ceramic_floortiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:brass_plating"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BB ",
+    "BB "
+  ],
+  "result": {
+    "item": "i_architecture:brass_door"
+  },
+  "show_notification": true
+}

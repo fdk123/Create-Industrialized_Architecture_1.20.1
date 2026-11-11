@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "i_architecture:large_ceramic_tile"
+  },
+  "result": "i_architecture:large_ceramic_tile_wall"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "i_architecture:ceramic_tile"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "i_architecture:ceramic_tiles"
+  },
+  "show_notification": true
+}
